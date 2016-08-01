@@ -33,7 +33,7 @@ file in this repository.  Licenses may vary by repository.  Your download and us
 # Installation Instructions
 
 ## Prerequisites
-*What has to be done before installing the field pack.*
+Java Agent installed.
 
 ## Dependencies
 Java 1.6 minimum.
