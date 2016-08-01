@@ -48,9 +48,6 @@ Modify the pbd as any other regular pbd to customize the metrics gathered.
 # Usage Instructions
 Metrics should appear in the investigator showing the operations and query parameters used between the application and the Mongo server.
 
-## Metric description
-*Describe the metrics provided by this field pack or link to third party documentation.*
-
 ## Name Formatter Replacements
 {operation}: will be replaced by the mongo operation (e.g., find, update, remove).
 {query}: will be replaced by a trimmed down version of the query parameter, with only the first level keys of the json object.
