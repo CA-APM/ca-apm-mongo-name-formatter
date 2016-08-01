@@ -1,0 +1,13 @@
+{
+    "specification-version" : "1",
+    "type" : "java",
+    "agentVersion" : "10.2",
+    "name": "${project.artifactId}",
+    "displayName": "${project.name}",
+    "version": "${project.version}",
+    "facets" : ["custom", "fieldpack" ],
+    "dependencies" : ["java-agent"],
+    "enhances" : [],
+    "compatibility": {"osName": ["windows","unix"],
+                       "agentVersion" : ">=10.2" }
+}

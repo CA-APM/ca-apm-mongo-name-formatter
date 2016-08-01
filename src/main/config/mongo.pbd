@@ -1,0 +1,9 @@
+SetFlag: Mongo
+TurnOn: Mongo
+
+SetTracerClassMapping: MongoBlamePointTracer com.wily.introscope.agent.trace.hc2.BlamePointTracer com.wily.introscope.probebuilder.validate.ResourceNameValidator
+SetTracerParameter: MongoBlamePointTracer nameformatter ca.apm.fieldpacks.trace.OperationNameFormatter
+
+IdentifyInheritedAs: com.mongodb.DBCollection Mongo
+
+TraceComplexMethodsWithParametersIfFlagged:  Mongo MongoBlamePointTracer "Mongo|{classname}|{method}|{collection}|{query}"
